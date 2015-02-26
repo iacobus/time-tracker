@@ -10,4 +10,10 @@
 
 @interface TTRViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *dayLabel;
+@property (nonatomic, weak) IBOutlet UILabel *monthLabel;
+@property (nonatomic, weak) IBOutlet UIButton *startButton;
+
+- (IBAction) startButtonPressed;
+
 @end

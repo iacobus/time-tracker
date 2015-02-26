@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEA2C3BB1A9EB3FE00A26CE1 /* TTREntriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C3BA1A9EB3FE00A26CE1 /* TTREntriesTableViewController.m */; };
 		AECDBB341A9E9FA100F54069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDBB331A9E9FA100F54069 /* Foundation.framework */; };
 		AECDBB361A9E9FA100F54069 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDBB351A9E9FA100F54069 /* CoreGraphics.framework */; };
 		AECDBB381A9E9FA100F54069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECDBB371A9E9FA100F54069 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEA2C3B91A9EB3FE00A26CE1 /* TTREntriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTREntriesTableViewController.h; sourceTree = "<group>"; };
+		AEA2C3BA1A9EB3FE00A26CE1 /* TTREntriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTREntriesTableViewController.m; sourceTree = "<group>"; };
 		AECDBB301A9E9FA100F54069 /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECDBB331A9E9FA100F54069 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AECDBB351A9E9FA100F54069 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				AECDBB421A9E9FA100F54069 /* TTRAppDelegate.h */,
 				AECDBB431A9E9FA100F54069 /* TTRAppDelegate.m */,
 				AECDBB451A9E9FA100F54069 /* Main_iPhone.storyboard */,
+				AEA2C3B91A9EB3FE00A26CE1 /* TTREntriesTableViewController.h */,
+				AEA2C3BA1A9EB3FE00A26CE1 /* TTREntriesTableViewController.m */,
 				AECDBB481A9E9FA100F54069 /* Main_iPad.storyboard */,
 				AECDBB4B1A9E9FA100F54069 /* TTRViewController.h */,
 				AECDBB4C1A9E9FA100F54069 /* TTRViewController.m */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECDBB401A9E9FA100F54069 /* main.m in Sources */,
+				AEA2C3BB1A9EB3FE00A26CE1 /* TTREntriesTableViewController.m in Sources */,
 				AECDBB4D1A9E9FA100F54069 /* TTRViewController.m in Sources */,
 				AECDBB441A9E9FA100F54069 /* TTRAppDelegate.m in Sources */,
 			);
@@ -470,6 +476,7 @@
 				AECDBB671A9E9FA200F54069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AECDBB681A9E9FA200F54069 /* Build configuration list for PBXNativeTarget "TimeTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				AECDBB6A1A9E9FA200F54069 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
